@@ -35,7 +35,7 @@ firebase.initializeApp(config);
 
 
 
-export default class Pstage2 extends Component {
+export default class Pstage4 extends Component {
   render() {
     return (
       <Provider store={store}>
@@ -64,4 +64,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('Pstage2', () => Pstage2);
+AppRegistry.registerComponent('Pstage4', () => Pstage4);
